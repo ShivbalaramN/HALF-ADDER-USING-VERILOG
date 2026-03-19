@@ -1,0 +1,12 @@
+module half_adder(
+    input a,
+    input b,
+    output sum,
+    output carry
+);
+
+// Logic
+assign sum = a ^ b;      // XOR
+assign carry = a & b;    // AND
+
+endmodule
